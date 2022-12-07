@@ -16,7 +16,7 @@ const App = () => {
         <button className="btn" onClick={handlemodal}>
           Open
         </button>
-        {state && <Modal closeModal={setState} />}
+        {state ? <Modal closeModal={setState} /> : <h1>"MODAL CLOSED"</h1>}
       </div>
     </>
   );
