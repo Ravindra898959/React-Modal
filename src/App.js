@@ -12,6 +12,11 @@ const App = () => {
   return (
     <>
       <h1>asdfghjkl;</h1>
+      <h1>asdfghjkl;</h1>
+      <h1>asdfghjkl;</h1>
+      <h1>asdfghjkl;</h1>
+      <h1>asdfghjkl;</h1>
+      <h1>asdfghjkl;</h1>
       <div className="main-div">
         <h1>Click the button to open the Modal</h1>
         <button className="btn" onClick={handlemodal}>
